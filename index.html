@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Caminho das Constelações - Sistema Tales</title>
+
+<link href="styles.css" rel="stylesheet"/></head>
+<body>
+<!-- Navigation -->
+<nav>
+<div class="nav-container">
+<div class="logo">Sistema Tales</div>
+<ul class="nav-links">
+<li><a href="index.html">Início</a></li>
+<li><a href="sistema.html">Sistema</a></li>
+<li><a href="mecanicas.html">Mecânicas</a></li>
+<li><a href="personagens.html">Personagens</a></li>
+<li><a href="mundo.html">Mundo</a></li>
+<li><a href="regras.html">Regras</a></li>
+</ul>
+</div>
+</nav>
+<!-- Status Overlay -->
+<div class="status-overlay">
+<div>STATUS: <span>ONLINE</span></div>
+<div>VIEWERS: <span id="viewerCount">5461</span></div>
+<div>SCENARIO: <span>ACTIVE</span></div>
+<div>CONSTELLATION: <span>?????</span></div>
+</div>
+<!-- Hero Section -->
+<section class="hero">
+<div class="book-page">
+<div class="chapter-number">Prólogo - O Despertar</div>
+<h1 class="main-title">
+                Caminho das<br/>Constelações
+            </h1>
+<div class="subtitle">Sistema Tales - RPG de Mesa</div>
+<p class="passage">
+                Você é apenas mais um rosto na multidão. Uma vida comum, sem feitos grandiosos, 
+                até que um acontecimento inexplicável o arranca da sua rotina e o lança em uma 
+                realidade onde <span class="highlight">as regras não são humanas</span>.
+            </p>
+<p class="passage">
+                Como uma Encarnação, você caiu sob a influência de forças celestiais. Agora, 
+                deve navegar por um universo governado por <span class="highlight">Constelações 
+                misteriosas</span> que observam cada movimento, julgam cada escolha, avaliam cada 
+                decisão como se sua vida fosse uma narrativa sendo escrita em tempo real.
+            </p>
+<p class="passage">
+                Cada batalha é <span class="highlight">transmitida</span>. Cada falha é 
+                <span class="highlight">permanente</span>. Cada crítico deixa cicatrizes que 
+                nunca desaparecem. As Constelações assistem, comentam, torcem por você ou contra 
+                você. Mas você não escolheu estar aqui.
+            </p>
+<div class="question-box">
+<p>
+                    "Você escolhe o seu caminho ou é apenas mais um personagem na transmissão 
+                    de alguém?"
+                </p>
+</div>
+<div class="chapter-nav">
+<a class="btn" href="sistema.html">Iniciar Jornada</a>
+<a class="btn" href="mecanicas.html">Aprender Regras</a>
+</div>
+</div>
+</section>
+<!-- Features Section -->
+<section class="content-section">
+<div class="section-header">
+<h2 class="section-title">Características do Sistema</h2>
+<p class="section-subtitle">Um RPG onde as escolhas têm consequências reais</p>
+</div>
+<div class="features-grid">
+<div class="feature-item">
+<h3 class="feature-header">Consequências Permanentes</h3>
+<p class="feature-text">
+                    Críticos naturais (100) e Falhas Críticas naturais (0) são rolagens absolutas. 
+                    Um golpe crítico recebido deixa cicatrizes permanentes no personagem. 
+                    Não há volta. Suas escolhas têm peso real e moldam a narrativa para sempre.
+                </p>
+</div>
+<div class="feature-item">
+<h3 class="feature-header">Constelações Observam</h3>
+<p class="feature-text">
+                    Entidades cósmicas assistem sua jornada como espectadores de uma transmissão. 
+                    Ganhe seu favor para desbloquear poderes únicos, mas cuidado: suas fraquezas 
+                    também são reveladas. Cada Constelação tem seus próprios interesses.
+                </p>
+</div>
+<div class="feature-item">
+<h3 class="feature-header">Sistema d100</h3>
+<p class="feature-text">
+                    Role 1d100 contra 1d100 do alvo. Simples, brutal, definitivo. Cada teste 
+                    pode ser seu último. Compare os resultados para determinar acertos. 
+                    A sorte não perdoa os despreparados.
+                </p>
+</div>
+<div class="feature-item">
+<h3 class="feature-header">Pontos de Narrativa</h3>
+<p class="feature-text">
+                    Cada jogador começa com 10 Pontos de Narrativa (PN). Use-os para interferir 
+                    na história, obter informações cruciais ou realizar ações extraordinárias. 
+                    PN podem salvar sua vida, mas são limitados. Use com sabedoria.
+                </p>
+</div>
+<div class="feature-item">
+<h3 class="feature-header">Classes Ocultas</h3>
+<p class="feature-text">
+                    Das classes mundanas conhecidas às lendárias de raridade SS. Espadachim 
+                    Dimensional, Mago Arcano, Assassino Fantasma. A maioria das classes são 
+                    desconhecidas por motivos de lore. Descubra-as através da narrativa.
+                </p>
+</div>
+<div class="feature-item">
+<h3 class="feature-header">Multiverso Interconectado</h3>
+<p class="feature-text">
+                    Os Portões do Firmamento ligam o mundo principal a outras realidades. 
+                    Viaje entre dimensões, explore planos paralelos, enfrente criaturas 
+                    interdimensionais e descubra segredos cósmicos.
+                </p>
+</div>
+</div>
+<div class="warning-section">
+<h3 class="warning-title">Aviso do Sistema</h3>
+<p class="warning-text">
+                Este não é um RPG comum. Aqui, as escolhas importam. A morte é real. 
+                As Constelações estão assistindo. Cada ação é julgada. Cada decisão tem peso. 
+                Você está pronto para ser avaliado?
+            </p>
+</div>
+</section>
+<script>
+        // Viewer count animation
+        setInterval(() => {
+            const count = Math.floor(Math.random() * 1000) + 5000;
+            document.getElementById('viewerCount').textContent = count;
+        }, 5000);
+    </script>
+</body>
+</html>
